@@ -1,0 +1,21 @@
+{
+  "name": "rn-nog-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "components",
+    "react-native",
+    "ui",
+    "nog-ui"
+  ],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "components"
+  ],
+  "bin": "./index.js",
+  "scripts": {
+    "add": "node ./index.js"
+  }
+}
