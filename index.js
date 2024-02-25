@@ -23,14 +23,14 @@ function copyFile(source, destination) {
 }
 
 
-const component = process.argv[2];
+const component = process.argv[3];
 
 if (!component) {
   console.error('Informe o nome do componente');
   process.exit(1);
 }
 
-const sourceFile = path.resolve(__dirname, '..', 'rn-nog-ui', 'components', 'ui', `${component}.tsx`);
+const sourceFile = path.resolve(__dirname, '..', 'native-nog-ui', 'components', 'ui', `${component}.tsx`);
 const destination = path.resolve(process.cwd(), 'src', 'components', 'ui');
 
 fs.access(sourceFile, fs.constants.F_OK, (err) => {
